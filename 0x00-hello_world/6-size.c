@@ -1,13 +1,15 @@
 #include <stdio.h>
 
+
 /**
- *  main - Prints the size of various types
+ *    main - Prints the size of various types
  *
- *  Return: 0 if program executed successfully
+ *    Return: 0 if program executed successfully
  */
+
 int main(void)
 {
- 	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
 
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
 
@@ -18,4 +20,4 @@ int main(void)
 	printf("Size of a float: %d byte(s)\n", sizeof(float));
 
 	return (0);
-}I
+}
