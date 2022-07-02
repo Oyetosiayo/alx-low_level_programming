@@ -1,11 +1,13 @@
 #include <string.h>
 #include <unistd.h>
 
+
 /**
  * main - Prints a string with printf
  *
  * Return: 0 if program executed successfull
  */
+
 int main(void)
 {
 	int stdErrFileNo = (2);
